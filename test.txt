@@ -1,0 +1,20 @@
+#!/bin/bash
+
+Branch_Name="Master" 
+Branch_Name="Release1.0"
+
+if [ $Branch_Name = "Master" ];
+then
+
+echo "Master Branch is found"
+ 
+elif [ $Branch_Name = "Release1.0" ];
+then
+
+echo "Release Branch is found"
+
+else
+echo "No Branch is found"
+
+fi
+
